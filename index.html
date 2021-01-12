@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>HTML Document Setup</title>
+	<link rel="stylsheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<header>
+		<h1>HTML AND CSS CHEAT SHEET</h1>
+		<p>A resource made by Travis Block</p>
+		<ul class="navigation">
+			<li>Html Tags</li>
+			<li>CSS Document Setup</li>
+			<li>CSS Syntax</li>
+		</ul>
+	</header>
+	<main>
+		<article>
+			<h2>HTML Document Setup</h2>
+			<p><strong>File Type:</strong><code> .html</code></p>
+			<p><strong>First Line Declaration:</strong><code> &lt;&#33;doctype html&gt;</code></p>
+			<p>Encapsulate all html elements in between the <code>&lt;html&gt; ... &lt;/html&gt;</code> tags.</p>
+			<h3>The Head</h3>
+			<p>Encapsulate your document information in <code>&lt;head&gt; ... &lt;/head&gt;</code></p>
+			<h4>Basic tags used in Head</h4>
+			<ul>
+				<li><code>&lt;title&gt; ... &lt;/title&gt;</code> <br>&ensp; - Used to hold the title of the document.</li>
+				<br>
+				<li><code>&lt;link rel="stylesheet" type="text/css" href="mystyle.css"&gt;</code> <br>&ensp; - Used to link your CSS stylesheet.</li>
+			</ul>
+			<h3>The Body</h3>
+			<p>The body tag goes below the head and all of your content will go within your body.</p>
+			<p>Use the tag <code>&lt;body&gt; ... &lt;/body&gt;</code></p>
+			<h3>Use Semantic HTML to better define your layout</h3>
+			<p> Semantic provides structure to the document. All of these tags represent sections of your file and makes it easier to understand and read. In the list below they will be presented in the order of use.</p>
+			<ol>
+				<li><code>&lt;header&gt; ... &lt;/header&gt;</code><br>&ensp; - Used to contain heading information like the title, author, date, etc... </li>
+				<br>
+				<li><code>&lt;main&gt; ... &lt;/main&gt;</code><br>&ensp; - Used to contain the dominant content of the page.</li>
+				<br>
+				<li><code>&lt;section&gt; ... <code>&lt;/section&gt;</code></code><br>&ensp; - Used to define sections of the document. You can put articles and other information within them.</li>
+				<br>
+				<li><code>&lt;article&gt; ... &lt;/article&gt;</code><br>&ensp; - Used to section hold self contained content. All of the information is perhaps about one subject. this tag will be used within your <code>&lt;main&gt;</code> tag.</li>
+				<br>
+				<li>&lt;aside&gt; ... &lt;/aside&gt;<br>&ensp; - Holds content within <code>&lt;article&gt;</code> that is indirectly related to the content.</li>
+			</ol>
+			<p>These were just a simple set of tags for semantic HTML. <a href="https://www.w3schools.com/html/html5_semantic_elements.asp" target="_blank">Click this link</a> to go to W3schools list of semantic tags and their definitions.</p>	
+		</article>
+		<footer>
+			<ul>
+				<li>Html Tags</li>
+				<li>CSS Document Setup</li>
+				<li>CSS Syntax</li>
+			</ul>
+		</footer>
+	</main>
+</body>
+</html>
